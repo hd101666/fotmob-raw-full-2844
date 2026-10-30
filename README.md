@@ -17,6 +17,15 @@ git clone https://github.com/hd101666/fotmob-raw-full-2844.git
 | `README_FULL_2844.md` | 5,814 字节 | 完整说明（分布、核对方法、安全扫描） |
 | `.gitattributes` | 12 字节 | 锁定 CSV 按原始字节存储，禁止换行转换 |
 
+> ⚠ **本仓库主文件是压缩包**，需解压后使用：
+> ```bash
+> unzip fotmob_raw_full_2844_20261030.zip
+> # 得到 fotmob_raw_responses_FULL_2844.csv (289,475,362 字节) + README_FULL_2844.md
+> ```
+> ZIP SHA-256：`d293905a3a5c589e40aacc48e741ee286ff98a986b65c2aa5ef800e0feef6738`
+> 上传原始 CSV(289MB) 受本机 0.26MB/s 带宽限制未直传，故以 ZIP 形式提供；
+> **解压后 CSV 的 SHA-256 仍为 `9bb40a4f...2ed5`**，可用下方指标校验。
+
 ## 关键指标
 
 | 指标 | 数值 |
